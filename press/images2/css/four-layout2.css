@@ -1,0 +1,43 @@
+﻿	.portfolio-item.column.four .content{
+		background:url(noise.png) repeat #eeeeee;
+		padding:5px;
+		border:1px solid #d9d9d9;
+	}
+	.four.column.portfolio-item h5 {
+		font-size:14px;
+		line-height:16px;
+		font-weight:600;
+		border-bottom:1px solid #d9d9d9;
+		padding:0 5px 5px 5px;
+		margin-bottom:5px;
+	}
+	.four.column.portfolio-item h5.noline {border:none;padding-bottom:0;}
+	.four.column.portfolio-item h5 a {color:#393939;}
+	.four.column.portfolio-item .border {
+		background:none;
+		margin:0 0 10px 0;
+		padding:0;
+	}
+	.four.column.portfolio-item .space {height:14px;}
+	.four.column.portfolio-item .shadow {
+	background:url(shadow-four.png) transparent no-repeat;
+	width:100%;
+	position:relative;
+	z-index:1000;
+	top:-1px;
+	height:15px;
+	background-image: url(shadow-four.png);
+    background-size: 100%;
+	}
+	.four.column .border img {
+		max-width:100%;
+		background:0;
+		padding:0;
+		border:0;
+	}
+	.four.column.portfolio-item p {
+		color:#585858;
+		line-height:17px;
+		margin-bottom:4px;
+		padding:0 5px 0px 5px;
+	}

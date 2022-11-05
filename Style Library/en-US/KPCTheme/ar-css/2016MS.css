@@ -1,0 +1,591 @@
+﻿.app-content .ms-webpartzone-cell{
+margin:auto auto 0px;
+}
+.page-cover .ms-WPBorder { width:940px;}
+.wrapper {
+   /*min-height: 100%;
+  height: 100%;
+  /* The bottom margin is the negative value of the footer's height */
+ /*  margin-bottom: -52px;*/
+}
+
+#ms-designer-ribbon{
+ /*display:none;*/
+
+}
+#aspnetForm{
+height:100%;
+  
+	}
+.push {
+  /* .push must be the same height as .footer */
+ 
+  /* Multicolumn Layout With Sticky Footer */
+}
+.footer {
+   background: #1b83bb;
+   color: #fff;
+   text-align: center;
+   height:52px;
+   width:100%;
+}
+
+
+#s4-bodyContainer {padding-bottom: 0px;width:100%;height:100%;/* overflow-x: scroll; *//* overflow-y: scroll; */}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    height: inherit; /* moved from master page*/
+    width: inherit; /* moved from master page*/
+    overflow: visible!important; /* moved from master page*/
+}
+
+    /* style below moved from master page*/
+body #s4-workspace {
+       
+        width:100%;
+        height: 100% !Important;
+        min-height: 100% !Important;
+  /* The bottom margin is the negative value of the footer's height */
+        /* margin-bottom: -52px; */
+    }
+    
+    /* making card area fill the height of screen to avoide context menu underflowing from the bottom footer*/
+    
+  .ImageContainer  .ms-SPZone {
+      margin-top: 40px;
+}
+
+
+
+ .SystemPage{
+	
+	    min-height: 70vh;
+}
+/*
+.ms-srch-sb>input
+{
+display:inline-block;
+border-style:none;
+outline-style:none;
+height:25px;
+margin:0px 5px 0px 0px;
+padding:0px 0px 0px 1px;
+width:255px;
+background-color:transparent;
+font-size:12px;
+
+} 
+
+.ms-srch-sbLarge>input
+{
+display:inline-block;
+float: left;
+border-style:none;
+outline-style:none;
+vertical-align:top;
+
+font-size:12px;
+height:25px;
+margin:1px 0px 0px 6px;
+padding:0px 1px 0px 1px;
+background-color:transparent;
+width: 275px;
+}
+.ms-srch-sbLarge > .ms-srch-sb-searchLink
+{
+height:25px;
+width:32px;
+}
+
+.ms-srch-sbLarge-searchImg:hover
+{
+left:-1px;
+top: -37px;
+}
+
+.ms-srch-sbLarge-searchImg
+{
+left:-53px;
+top: -3px;
+position:absolute;
+}*/
+/*** Fix for the dialogs ***/
+/*** Fix for the dialogs ***/
+.ms-dialog #s4-workspace{
+    background-color: white;
+}
+
+.ms-dialog #s4-bodyContainer{
+    margin: 0px;
+    width: auto;
+}
+
+.ms-dlgContent #s4-bodyContainer{
+    width: auto;
+}
+.ms-dialog .SystemPage
+{
+    margin: 0px;
+    width: auto;
+    height:auto;
+    min-height:inherit;
+    padding:0px;
+    
+ }
+.ms-dialog .SystemPage
+{
+    margin: 0px;
+    width: auto;
+}
+
+.ms-dialog #ms-designer-ribbon{
+	 margin-top:0px;
+}
+.SideSystemNav{display:none;}
+
+.ms-dialog .MainWrapper { width:auto;}
+
+div#ctl00_PlaceHolderMain_ctl02__ControlWrapper_RichHtmlField p{margin-bottom:0px; line-height:0px;}
+
+#container div.ms-rte-embeddialog-preview{margin:0px;}
+
+
+.container input.ms-InlineSearch-SearchBox-Baseline{line-height:22px; font-size:12px;}
+
+.ms-rtestate-field TABLE, .ms-rtestate-write TABLE.footable{
+	border-collapse:inherit;
+}
+
+
+
+@media only screen and (min-width:620px) and (max-width:767px){
+	
+	.ms-srch-sb>input{width:240px;}
+	
+	}
+
+@media only screen and (max-width:620px) {
+	.ms-srch-sb>input{width:100px;}
+	
+}
+
+@media only screen and (max-width:480px) {
+	
+	.ms-srch-sb>input{width:120px;}
+	
+	
+}
+
+.container .SystemPage h3 { margin:0px; padding:0px; font-size:16px; color:#151515; font-weight:bold;}
+
+.IconsArea .ms-webpart-cell-vertical , .IconsArea .ms-webpart-zone , .IconsArea .ms-webpart-chrome-vertical {display:block;}
+
+.page-cover.ms-webpart-cell-vertical , .page-cover .ms-webpart-zone , .page-cover .ms-webpart-chrome-vertical {display:block;}
+
+
+
+
+
+
+
+.NavSearch .SearchBox{/* float:right; */}
+
+.NavSearch .ms-srch-sb,
+.NavSearch .ms-srch-sb:hover , .container .ms-srch-sb,
+.NavSearch .ms-srch-sb:hover{
+	background-color: rgb(255, 255, 255);
+	border: 1px solid #ededef;
+	height: 30px;
+	/* right: -230px; */
+	margin-top: 0px;
+	position: relative;
+	/* top: 2px; */
+	width: 220px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	}
+    
+    
+.NavSearch .ms-srch-sb input , .NavSearch .ms-srch-sb input ,.NavSearch .ms-srch-sb  input[type="text"]
+{
+	background: none;
+	height: 30px;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 1px 20px 0 8px;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border:0px;
+	font-family: Droid Arabic Naskh , Tahoma, Geneva, sans-serif;
+	color:#919191;
+}
+.NavSearch .ms-srch-sb-searchLink {
+	background: url("../../CITRATheme/img/search.html") -240px -10px no-repeat;
+	border: none;
+	height: 30px;
+	overflow: hidden;
+	position: absolute;
+	right: 0px;
+	text-indent: -9999px;
+	top: 4px;
+	width: 35px;
+}
+.NavSearch a#ctl00_ctl56_csr_SearchLink img  ,  .container .NavSearch a#ctl00_ctl56_csr_SearchLink img{display:none;}
+
+.container .NavSearch .ms-srch-sb-searchLink:hover {	/* search button hover */
+	background: url("../../CITRATheme/img/search.html") -240px -10px no-repeat;
+}
+.ms-srch-sb-searchImg ,  .container  .ms-srch-sb-searchImg{
+	display:none;
+
+}
+.ms-inlineSearch-searchImg
+{
+top:-140px;
+left:-108px;
+position:relative;
+}
+.ms-inlineSearch-searchImgHover
+{
+top:-140px;
+left:-108px;
+position:relative;
+}
+
+.ms-dlgCloseBtn > span
+{box-sizing: content-box;}
+
+
+
+@media  (max-width: 768px) {
+.NavSearch .ms-srch-sb,
+.NavSearch .ms-srch-sb:hover , .container .ms-srch-sb,
+.NavSearch .ms-srch-sb:hover{
+	 float:inherit; margin-bottom:10px;
+}
+	
+	}
+
+
+
+.inline-rb input[type='radio']{
+	
+	display:inline-block !Important;
+}
+
+
+/* moved from toastr.css */
+
+
+.clsTreeViewOverflow{
+	width:100%;
+	overflow:auto;
+}
+ .dxucProgressBar{
+	width:100% !important;
+	height: 47px;;
+}
+ .dxucControl {
+	width:100% !important;
+	    border: 1px solid #ccd6e6 !important;
+	    background-color:rgba( 255,255,255,0.85 ) !important;
+	        border-radius: 0.25rem;
+}
+.dxucTextBox{
+	border: none !important;
+}
+.dxucControl .dxucInputs {
+    height: 47px;
+}
+td.dxBB {
+        color: #FFF;
+         border: 1px solid #ccd6e6;
+        background: #0277bd !important;
+		padding: 12px 21px 14px 29px !important;
+        width: 100%;
+        border-radius: 0.25rem;
+
+    }
+    td.dxBB a {
+        color: #FFF !important;
+            font-weight: bold;
+    }
+    td.dxBB a::before {
+    color: #FFF !important;
+        font-weight: bold;
+    content: "\f093";
+        font-family: FontAwesome;
+}
+
+
+    .inputfile-1 + label {
+        border: 1px solid #ccd6e6;
+        /*background-color: #3d9de2;*/
+        padding: 0;
+        width: 100%;
+        border-radius: 0.25rem;
+    }
+
+        .inputfile-1:focus + label,
+        .inputfile-1.has-focus + label,
+        .inputfile-1 + label:hover {
+            border-color: #92c0e0;
+        }
+
+
+
+
+#O365_SubLink_SuiteMenu_zz2_ID_PersonalInformation{
+	display:none !important;
+}
+.dxeTrackBar, .dxeIRadioButton, .dxeButtonEdit, .dxeTextBox, .dxeRadioButtonList, .dxeCheckBoxList, .dxeMemo, .dxeListBox, .dxeCalendar, .dxeColorTable{
+	width:100% !important;
+	    border: 1px solid #ccd6e6 !important;
+}
+.dxeRoot{
+	width:100%;
+}
+.o365cs-nav-header16 .o365cs-nav-brandingText{
+	display:none !important;
+}
+div.ms-cui-TabRowRight{display:none !important}
+#O365_MainLink_Help {
+	display:none;
+}
+.ms-dlgContent{
+	position:fixed !important;
+}
+/*#suiteBarDelta,#s4-ribbonrow{
+	display:none;
+}*/
+.dxeValidStEditorTable .dxeErrorFrameSys{
+	width:100%;
+	display: block;
+}
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation > li > a > img {
+    margin-top: 5px;
+}
+.dxeMemoEditAreaSys, input[type="text"].dxeEditAreaSys, input[type="password"].dxeEditAreaSys{
+	    padding: 0.38rem 0.85rem;
+}
+.ms-dtinput, .ms-dttimeinput{
+	width:100%;
+}
+.ms-usereditor{
+	width:100% !important;
+}
+.ms-usereditor div{
+	border: 1px solid #ccd6e6;
+    color: #3f587e;
+    display: block;
+    width: 100%;
+    padding: 0.85rem 0.85rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #BABFC7;
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+table.form-control{
+	padding: 0px !Important;
+    height: 42px;
+}
+.dxtvControl .dxtv-ln {
+     padding:5px 0px;
+}
+.dxWeb_edtCheckBoxUnchecked {
+    background: #e4e7ed !important;
+    border: 1px solid #ccc7c7 !Important;
+}
+.dxICheckBox {
+    background: #0074d9;
+}
+.dxtv-nd [class*="CheckBoxChecked"]:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    font-size: 8pt;
+    font-weight: normal;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 16px;
+        margin-left: 3px;
+    }
+    
+    .dxtvControl .dxtv-ndSel{
+	background-color:transparent !Important;
+	border:0px solid transparent !IMportant;
+}
+.inlineLabel{
+	display: inline;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.dxtvControl .dxtv-ndChk {
+    border-radius: 2px;
+}
+
+
+
+
+.input-group.inline .label{
+  margin-right: 10px;
+}
+
+.input-group .input-group-addon{
+  background-color:lightgrey;
+  position: relative;
+}
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon{
+  border-radius: 0px;
+}
+.input-group-lg>.form-control,
+ .input-group-lg>.input-group-addon{
+
+  height: 38px;
+}
+.input-group{
+  position: relative;
+}
+.input-group-addon {
+  background-color: white;
+      border: 1px solid rgb(217, 217, 217);
+      border-left: 1px solid transparent !important;
+      border-radius: 0rem;
+      position: absolute;
+      z-index: 999;
+      right: 0px;
+}
+.input-group-addon a{
+  color:#d0ac57;
+}
+.input-group-addon a:hover{
+  color:#ab8c45;
+}
+
+
+
+
+
+form .form-group {
+  margin-bottom : 1.5rem;
+}
+
+form .form-actions.center {
+  text-align : center;
+}
+form .form-actions.right {
+  text-align : left;
+}
+
+form .form-actions.left {
+  text-align : right;
+}
+
+form .form-control {
+    border: 1px solid #ccd6e6;}
+    
+input.form-control{
+	padding: 0.54rem 0.85rem;
+}
+
+input.form-control:focus{
+	border-color: #d0ac57;
+}
+
+
+    
+    
+input[type=button].btn-primary , input[type=reset].btn-primary , input[type=submit].btn-primary , button.btn-primary{
+    color: #FFF !important;	
+}
+
+
+input[type=button]:hover.btn-primary, input[type=reset]:hover.btn-primary , input[type=submit]:hover.btn-primary, button:hover.btn-primary{
+	
+    color: #FFF !important; }
+
+	
+input[type=button]:active.btn-primary, input[type=reset]:active.btn-primary, input[type=submit]:active.btn-primary, button:active.btn-primary {
+    color: #FFF !important;
+}
+
+
+input[type=button].btn , input[type=reset].btn , input[type=submit].btn , button.btn{
+  font-weight: 400;
+  line-height: 1.25;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  margin-left:0;
+  }
+
+ input[type=file]{ border:0px solid #eeeeee;
+}
+
+
+
+
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #e31e26 ;
+    border-color: #e31e26 ;
+}
+.btn{
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn:hover{
+  cursor: pointer !important;
+}
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #ce5d61;
+    border-color: #ce5d61;
+}
+
+}
+
+.btn-primary:active {
+    color: #fff !important;
+    background-color: #e31e26 ;
+    border-color: #e31e26 ;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #e5e5e5;
+    border-color: #e0e0e0;
+    color: black;
+    cursor: not-allowed !important;
+}
+
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+  color: #fff !important;
+    background-color: #e31e26 ;
+    border-color: #e31e26 ;
+
+}
+
+
+.page-cover .ms-SPZone.ms-webpart-zone {  margin-top:90px}
+
+.GreyArea .ms-SPZone.ms-webpart-zone{ margin-top:200px}
+
+.ms-webpart-titleText {
+    font-size: 0.8em;
+}
+/* moved from toastr.css end */
+

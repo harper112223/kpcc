@@ -1,0 +1,129 @@
+/* Wrapping div for OOTB Nav holder*/
+/* You can replace this with your own custom class */
+
+#DeltaTopNavigation .ms-core-listMenu-root .ms-listMenu-editLink {display: none;direction:rtl;}
+
+.ms-breadcrumb-top {
+	background-color:orange;
+}
+
+/* OOTB Nav Holder div */
+.ms-core-listMenu-horizontalBox {
+	/*background-color:lime;*/
+	background-color:transparent;
+	height:65px; /* only applied height to make it easier to see for example. Not always necessary. */
+	
+}
+
+/* Containing <li> tag for links */
+.ms-core-listMenu-horizontalBox li.static {
+	/*background-color:darkcyan;*/
+	background-color:transparent;
+	
+}
+
+/* Default nav item state */
+.ms-core-listMenu-horizontalBox li.static  > .ms-core-listMenu-item {
+	background-color:transparent;
+
+/*	background-color:yellow;*/
+	padding:30px 0 20px 0;
+	
+}
+
+/* Default nav item state, includes non-link headers */
+.ms-core-listMenu-horizontalBox li.static span.static  {
+	background-color:yellow;
+	
+}
+
+/* Hover state for nav items (includes selected nav item) */
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item:hover {
+/*	background-color:aqua;*/
+background-color:transparent;
+
+
+	}
+
+/* Selected state for nav item */
+.ms-core-listMenu-horizontalBox li.selected a.selected {
+	/*background-color:pink;*/
+	background-color:transparent;
+	border-bottom:2px red solid;
+	color:white;
+}
+
+/* Containing <ul> for dropdown navigation items */
+ul.dynamic {
+	/*background-color:red;*/
+	background-color:black;
+	border-top:2px red solid;
+	color:white;
+	 width:250px;
+	 font-size:1em;
+	font-weight:bold;
+	box-shadow:0;
+	right:1px;
+}
+li.dynamic a {
+	color:white;
+}
+.ms-core-listMenu-item, .ms-core-listMenu-item:link, .ms-core-listMenu-item:visited, .ms-tv-item:link, .ms-tv-item:visited, .ms-tv-header:link, .ms-tv-header:visited{
+	color:white;
+}
+/* Link tag in dropdown nav */
+ul.dynamic .ms-core-listMenu-item {
+	/*background-color:violet;*/
+	background-color:black;
+	padding:10px 0 10px 0;
+	color:white:
+	xwidth:130px;
+	
+	
+}
+
+
+/* Hover state for links in the dropdown navigation */
+ul.dynamic .ms-core-listMenu-item:hover {
+/*	background-color:palegreen;*/
+		background-color:black;
+		color:red;
+
+	
+}
+
+
+
+li.dynamic-children > ul.dynamic > li.dynamic  > a > span.dynamic-children{
+background:none;
+padding:0px;
+width:150px;
+border-bottom:1px solid red;
+}
+li.dynamic-children > ul.dynamic > li.dynamic  > a > span.dynamic-children > span{
+xpadding-left:50px;
+}
+
+.ms-core-listMenu-horizontalBox .dynamic .dynamic-children.additional-background{
+
+}
+
+.ms-core-listMenu-horizontalBox .dynamic .dynamic-children.ms-navedit-flyoutArrow  > span{
+xpadding-right:30px;
+}
+
+
+
+
+
+li.dynamic-children > ul.dynamic > li.dynamic-children > ul.dynamic{
+	margin-left:0px;
+	margin-right:150px;
+	background-color:black;
+	border-top:2px red solid;
+}
+
+/*patch for tiles*/
+.ms-promlink-body{
+width:auto;
+}
